@@ -13,7 +13,34 @@
     </header>
     <main>
         <h2>¡Descubre tu campeón ideal!</h2>
-        <button onclick="empezar()">Comenzar</button>
+        <div>
+            <form action="" id="formulario">
+                <label for="pos">Seleccionar posición</label>
+                <select name="posicion" id="pos">
+                    <option value="adc">AdCarry</option>
+                    <option value="sup">Support</option>
+                    <option value="mid">Middle</option>
+                    <option value="jg">Jungle</option>
+                    <option value="top">Topside</option>
+                </select>
+                <label for="est">Seleccionar estilo de pelea</label>
+                <select name="estilo" id="est">
+                    <option value="melee">Melee</option>
+                    <option value="rango">Rango</option>
+                </select>
+                <label for="esp">Seleccionar especialidad</label>
+                <select name="especialidad" id="esp">
+                    <option value="asesino">Asesino</option>
+                    <option value="tirador">Tirador</option>
+                    <option value="tanque">Tanque</option>
+                    <option value="soporte">Soporte</option>
+                    <option value="mago">Mago</option>
+                    <option value="luchador">Luchador</option>
+                </select>
+                <button id="formbtn">Enviar</button> 
+            </form>
+        </div>
+        <div id="end"></div>
     </main>
     <footer>
         <h2>Nuestras redes:</h2>
